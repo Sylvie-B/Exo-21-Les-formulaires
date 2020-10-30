@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exo 21 formulaire</title>
+</head>
+<body>
+    <form action="mailto:unsolo@hotmail.fr" method="get" enctype="text/plain">
+        <fieldset>
+            <div>
+                <label for="texte">Nom d'utilisateur</label>
+                <input type="text" id="texte" name="userName">
+            </div>
+            <div>
+                <label for="password">mot de passe</label>
+                <input type="password" id="password" name="userPassword">
+            </div>
+            <div>
+                <label for="birthDate">date de naissance</label>
+                <input type="date" id="birthDate">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="color">couleur de la tortue ?</label>
+                <input type="color" id="color">
+            </div>
+            <div>
+                <label for="option">mois</label>
+                <select name="user_option" id="option" size="4" multiple>
+                    <option value="1">jan</option>
+                    <option value="2">fev</option>
+                    <option value="3">mars</option>
+                    <option value="4">avril</option>
+                    <option value="5">mai</option>
+                    <option value="6">juin</option>
+                    <option value="7">juil</option>
+                    <option value="8">aout</option>
+                    <option value="9">sept</option>
+                    <option value="10">oct</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <input type="reset">
+            </div>
+            <div>
+                <button type="submit" name="submit">Valider</button>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p>avez-vous un avis ?</p>
+                <input type="radio" name="avis" value="oui">oui
+                <input type="radio" name="avis" value="non">non
+                <input type="radio" name="avis" value="sans">peut être
+            </div>
+            <div>
+                <label for="semaine">semaine</label>
+                <input type="checkbox" name="jour" id="semaine" value="semaine">
+                <label for="weekEnd">week-end</label>
+                <input type="checkbox" name="jour" id="weekEnd" value="week-end">
+                <label for="fete">fête</label>
+                <input type="checkbox" name="jour" id="fete" value="fete">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
